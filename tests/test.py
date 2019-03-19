@@ -1,4 +1,4 @@
-from projecthack import myFunction
+from projecthack import recursion
 
 
 def test_sum_array():
