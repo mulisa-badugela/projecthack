@@ -20,6 +20,7 @@ def bubble_sort(items):
 def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
+
     if len(items) <= 1:
 
         return items
