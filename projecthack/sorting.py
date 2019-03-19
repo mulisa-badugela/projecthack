@@ -20,7 +20,8 @@ def bubble_sort(items):
 def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
-        if len(items) <= 1:
+    if len(items) <= 1:
+
         return items
 # Find the middle point and devide it
     middle = len(items) // 2
