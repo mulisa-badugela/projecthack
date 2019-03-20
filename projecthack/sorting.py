@@ -15,7 +15,7 @@ def bubble_sort(items):
             if items[j] < items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
 
-    return items
+    return items[::-1]
 
 def merge_sort(items):
 
@@ -64,7 +64,7 @@ def quick_sort(items):
                 items[j+1],items[i+1] = items[i+1], items[j+1]
                 i += 1
         items[0],items[i] = items[i],items[0]
-        first_part = quicksort(items[:i])
-        second_part = quicksort(items[i+1:])
+        first_part = quick_sort(items[:i])
+        second_part = quick_sort(items[i+1:])
         first_part.append(items[i])
         return first_part + second_part
