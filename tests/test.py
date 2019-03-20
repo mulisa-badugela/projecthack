@@ -7,8 +7,8 @@ def test_sum_array():
     make sure top_n works correctly
     """
 
-    assert myFunction.sum_array([1,1,1,1,1]) == 5, 'incorrect'
-    assert myFunction.sum_array([5, 5, 10]) == 20, 'incorrect'
+    assert recursion.sum_array([1,1,1,1,1]) == 5, 'incorrect'
+    assert recursion.sum_array([5, 5, 10]) == 20, 'incorrect'
 
 def test_fibonacci():
 
@@ -41,15 +41,3 @@ def test_quick_sort():
 
     assert myFunction.quick_sort([2,3,1,4,6,5]) == [1,2,3,4,5,6], 'incorrect'
     assert myFunction.quick_sort([5,6,3,9,2,8,13,0]) == [0, 2, 3, 5, 6, 8, 9, 13], 'incorrect'
-
-
-if __name__ == "__main__":
-    test_sum_array()
-    test_fibonacci()
-    test_factorial()
-    test_reverse()
-    test_bubble_sort()
-    test_merge_sort()
-    test_quick_sort()
-    
-    print("Everything passed")
