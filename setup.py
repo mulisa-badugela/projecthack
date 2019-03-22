@@ -8,7 +8,7 @@ setup(
     description='EDSA python analyse hackathon package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/<mulisa-badugela/projecthack',
+    url='https://github.com/mulisa-badugela/projecthack.git',
     author='Mulisa Badugela',
     author_email='mrbadugela@gmail.com'
 )
